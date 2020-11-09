@@ -24,7 +24,8 @@ def DFS(): #깊이 우선탐색
 
         if map[x][y]=='x': return True
         else:
-            map[x][y]==',' #지나온 위치는 다른값으로 변경(표시)
+            map[x][y]==',' #지나온 위치는 다른값으로 변경(표시)!!
+
             if isValidpos(x,y-1): stack.push((x,y-1))#상
             #구현                                    #하
             #구현                                    #좌

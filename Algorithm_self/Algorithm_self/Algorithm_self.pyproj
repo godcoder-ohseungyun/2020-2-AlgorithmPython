@@ -21,6 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="10\GraghADT.py" />
+    <Compile Include="10\FindBridge.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10\SpanningTree.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10\Stack.py" />
     <Compile Include="4\StackMiro.py">
       <SubType>Code</SubType>
     </Compile>
@@ -33,6 +41,27 @@
     <Compile Include="4\Stack.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="5\CircularQueue.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5\Deck.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5\PriorityQueueMiro.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5\PriorityQueue.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5\QBFS.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5\Queue.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6\LinkedList.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="9\binarytree.py" />
     <Compile Include="9\Heaptree.py" />
     <Compile Include="9\bst_map_homwork.py">
@@ -43,6 +72,7 @@
     <Compile Include="8\bst_map.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="10\" />
     <Folder Include="8\" />
     <Folder Include="9\" />
     <Folder Include="4\" />
